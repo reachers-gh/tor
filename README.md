@@ -17,9 +17,9 @@ The first step in configuring a Tor server will be setting up a way to serve HTT
 
 On a system where we can call a Python module directly, we might choose to use the http.server module. First, we need to be in the directory that contains the content we would like to host. If you just want to test it out with the bare minimum, create a new directory, and change into it.
 
-<code>~$ mkdir tor_service</code>
-<code>~$ cd tor_service</code>
-<code>~/tor_service$</code>
+<code>$ mkdir tor_service</code>
+<code>$ cd tor_service</code>
+<code>/tor_service$</code>
 
 
 Now, we can run a server directly from the command line. Using Python 3 and http.server, we can use the following string to bind to 127.0.0.1 and launch a server on port 8080.
