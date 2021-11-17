@@ -4,7 +4,7 @@ The Tor Browser is available from the Tor Project's website for Windows, macOS, 
 
 <code>$ sudo apt install torbrowser-launcher</code>
 
-<body>
+<code>
 [sudo] password for kali:
 Reading package lists... Done
 Building dependency tree
@@ -53,7 +53,7 @@ Processing triggers for gnome-menus (3.36.0-1) ...
 Processing triggers for systemd (245.4-3) ...
 Processing triggers for man-db (2.9.1-1) ...
 Processing triggers for kali-menu (2020.2.2) ...
-</body>
+</code>
 
 # Step 2: Browse Hidden Services
 
